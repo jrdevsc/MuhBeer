@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+}
+
+ .selectedBeer{
+  text-decoration: underline;
+  color: firebrick;
+  border: 1px dashed red;
+}
+
+.selectedBeer p{
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+.st{
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  /* border: 1px dashed firebrick; */
+  margin-left: 10px;
+}
+
+.beerList{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
